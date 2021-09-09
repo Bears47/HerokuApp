@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Blog</title>
     <meta charset="utf-8">
@@ -7,11 +8,137 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <script type = "text/javascript" src="script.js"></script>     
+    <link href= "css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div class = "container">
-        <h1 class= "mb-4">New Article 123567</h1>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark primary-color sticky-top">
+    <a class="navbar-brand" href="#">E<img src="img/logo.png"></a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- <button class="btn btn-sm align-middle btn-primary ml-3 order-lg-last" type="button">My account</button> -->
+    <!-- <a href = "/articles/login" class = "btn btn-sm align-middle btn-primary ml-3 order-lg-last">my account</a> -->
+    <a href = "/login" class = "btn btn-sm align-middle btn-primary ml-3 order-lg-last">my account</a>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">
+                    Help
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+        </ul>
     </div>
+</nav>
+
+<div class="carousel-inner">
+    <div class ="carousel-item active">
+        <img src="img/leaf2.jpg">
+        <div class="carousel-caption">
+            <h1 class="display-2">Energy for the future</h1>
+            <h3>Switch today and save £170* a year.</h3>
+            <!-- <button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button> -->                    
+            <button type="button" class="btn btn-primary btn-lg">Get Started</button>            
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row padding">
+        <div class = "col-lg-6">
+            <h2>Green energy for all</h2>
+             <p>Choosing 100% renewable power is the simplest sustainability step you can take. With Myenergy Advance, your electricity comes from renewable sources including solar, wind, hydro and anaerobic digestion (AD).
+             </p>
+             <p>What's more, all the power you buy is backed by renewable electricity certificates and we'll support you in promoting your sustainability credentials.</p>
+            <br>   
+        </div>
+        <div class = "col-lg-6">
+            <img src="img/bootstrap2.png" class="img-fluid">
+        </div>
+    </div>
+    <hr class="my-4">
+</div>
+
+<!--Jumbotron-->
+<div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <p class="lead">blah</p>
+        </div>
+        <div class="col-xs12 col-sm12 col-md-3 col-lg-3 col-xl-2">
+            <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+        </div>
+    </div>
+</div>
+    
+<!--Meet the team-->
+<div class="container-fluid">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Meet the Team</h1>
+        </div>
+        <hr>
+    </div>
+    </div>
+
+<!--Cards-->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/team1.png">
+                <div class="card-body">
+                    <h4 class ="card-title">John Doe</h4>
+                    <p class="card-text">John is an internet entrepreneur with alsmost 20 years of experience</p>
+                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/team2.png">
+                <div class="card-body">
+                    <h4 class ="card-title">Mary Jo</h4>
+                    <p class="card-text">Mary is an designer with almost 10 years of digital design experience.</p>
+                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/team3.png">
+                <div class="card-body">
+                    <h4 class ="card-title">Phil Ho</h4>
+                    <p class="card-text">Phil is a developer over 5 years od web development experience.</p>
+                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
 </body>
 </html>

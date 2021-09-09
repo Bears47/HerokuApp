@@ -51,6 +51,7 @@ mongoose.connect('mongodb+srv://dbAdmin:5EBi5shIIOry6pfa@cluster0.ca8lk.mongodb.
 
 // View engine
 app.set('view engine', 'ejs')
+app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
     res.render('pages/index');

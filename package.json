@@ -1,0 +1,25 @@
+{
+  "name": "herokuapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bears47/HerokuApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bears47/HerokuApp/issues"
+  },
+  "homepage": "https://github.com/Bears47/HerokuApp#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5",
+    "mysql": "^2.18.1"
+  }
+}
